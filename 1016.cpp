@@ -16,7 +16,7 @@ int main() {
 	for (long long i = 2; i * i <= max_number; i++) {
 		long long number = min_number / (i * i);
 
-		if (min_number % (i * i)) number++;
+		if (min_number % (i * i)) numbder++;
 
 		while (number * i * i <= max_number) {
 			arr[number * i * i - min_number] = 1;
